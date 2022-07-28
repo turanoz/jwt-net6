@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EyxisvVcYliResr04q7SaJTTSR8iJKb7RVcUvfn/48o=",
+  "Source": "MiniApp1.Api",
+  "BasePath": "_content/MiniApp1.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

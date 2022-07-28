@@ -1,0 +1,363 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Api\\JwtIdentity.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Api\\JwtIdentity.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Api\\JwtIdentity.Api.csproj",
+        "projectName": "JwtIdentity.Api",
+        "projectPath": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Api\\JwtIdentity.Api.csproj",
+        "packagesPath": "C:\\Users\\Turan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Turan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Service\\JwtIdentity.Service.csproj": {
+                "projectPath": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Service\\JwtIdentity.Service.csproj"
+              },
+              "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Shared\\JwtIdentity.Shared.csproj": {
+                "projectPath": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Shared\\JwtIdentity.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.1.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Core\\JwtIdentity.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Core\\JwtIdentity.Core.csproj",
+        "projectName": "JwtIdentity.Core",
+        "projectPath": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Core\\JwtIdentity.Core.csproj",
+        "packagesPath": "C:\\Users\\Turan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Turan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Shared\\JwtIdentity.Shared.csproj": {
+                "projectPath": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Shared\\JwtIdentity.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Data\\JwtIdentity.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Data\\JwtIdentity.Data.csproj",
+        "projectName": "JwtIdentity.Data",
+        "projectPath": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Data\\JwtIdentity.Data.csproj",
+        "packagesPath": "C:\\Users\\Turan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Turan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Core\\JwtIdentity.Core.csproj": {
+                "projectPath": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Core\\JwtIdentity.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Service\\JwtIdentity.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Service\\JwtIdentity.Service.csproj",
+        "projectName": "JwtIdentity.Service",
+        "projectPath": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Service\\JwtIdentity.Service.csproj",
+        "packagesPath": "C:\\Users\\Turan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Turan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Data\\JwtIdentity.Data.csproj": {
+                "projectPath": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Data\\JwtIdentity.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Shared\\JwtIdentity.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Shared\\JwtIdentity.Shared.csproj",
+        "projectName": "JwtIdentity.Shared",
+        "projectPath": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Shared\\JwtIdentity.Shared.csproj",
+        "packagesPath": "C:\\Users\\Turan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Turan\\source\\repos\\JwtIdentity\\JwtIdentity.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Turan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
